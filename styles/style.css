@@ -161,7 +161,6 @@
 
 .table__cell{
   width: 250px;
-  row-gap: 20px;
 }
 
 .table__heading{
@@ -174,6 +173,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
