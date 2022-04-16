@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -80,6 +89,8 @@
   height: 568px;
   background-color: #2F80ED;
   z-index: 0;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 .description{
@@ -111,19 +122,91 @@
   flex-direction: column;
   min-width: 784px;
   width: 80%;
+  row-gap: 30px;
 }
 
 .two-columns__paragraph{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
+
 }
 
 .two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.techniques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.cards{
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  text-align: center;
+}
+
+.cards__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 240px;
+}
+
+.cards__image{
+  height: 160px;
+  width: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 50%;
+}
+
+.cards__title{
+  margin-bottom: 16px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description{
+  margin-bottom: 60px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: -60px;
+}
+
+.video__iframes{
+  margin-top: 50px;
+}
+
+.video__iframe{
+  width: 515px;
+  height: 316px;
+}
+
+.oakley{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #F2F2F2;
+  padding-top: 160px;
 }
 
 .digits{
@@ -134,11 +217,26 @@
   min-height: 100vh;
 }
 
+.khan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.khan__container{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .section-title{
   width: 60%;
   margin-bottom: 20px;
   text-align: center;
-  line-height: 69px;
+  line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin-top: 0;
@@ -147,7 +245,6 @@
 .section-subtitle{
   text-align: center;
   width: 60%;
-  margin-bottom: 60px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -161,7 +258,7 @@
   list-style: none;
   row-gap: 60px;
   justify-content: space-between;
-  margin:auto;
+  margin: 50px auto;
 }
 
 .table__cell{
