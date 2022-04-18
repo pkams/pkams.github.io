@@ -6,7 +6,11 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [X] Deploy do site usando github pages.
+- [ ] Adicionar fontes diferentes
+- [ ] Adicionar vídeos educacionais favoritos
+- [ ] Verificar o código de compatibilidade e adicionar todos os prefixos de fornecedores necessários
+- [ ] Projetar um formulário permitindo que os usuários enviem um comentário
+- [ ] Deploy do site usando github pages.
 - [ ] Adicionar responsividade.
 - [ ] Incorporar ações e interatividade utilizando Javascript.
 - [ ] Backend utilizando JS ou outra tecnologia similar (Python por ex, utilizando Flask ou Django)
