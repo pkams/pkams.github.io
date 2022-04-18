@@ -1,0 +1,16 @@
+.footer__column-link{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer__column-link:visited, .footer__column-link:active, .footer__column-link, a{
+  color: white;
+  text-decoration: none;
+}

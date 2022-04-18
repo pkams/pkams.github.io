@@ -8,62 +8,9 @@
   color: white;
 }
 
-.footer__columns{
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  justify-content: space-between;
-}
-
-.footer__columns_content_copyright{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
-.footer__columns_content_social{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__author{
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 18px 0;
-}
-
 .logo_place_footer{
   width: 183px;
   height: 35px;
 }
 
-.footer__column-heading{
-  margin-bottom: 20px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: bold;
-}
 
-.footer__column-link{
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  align-items: center;
-  text-decoration: none;
-}
-
-.footer__column-link:visited, .footer__column-link:active, .footer__column-link, a{
-  color: white;
-  text-decoration: none;
-}
-
-.footer__social-icons{
-  width: 16px;
-  height: 16px;
-}
