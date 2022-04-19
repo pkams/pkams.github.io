@@ -30,6 +30,7 @@
 @import url("../blocks/footer/__columns/footer__columns.css");
 @import url("../blocks/footer/__columns-content-copyright/footer__columns-content-copyright.css");
 @import url("../blocks/footer/__columns-content-social/footer__columns-content-social.css");
+@import url("../blocks/footer/__columns-content-about/footer__columns-content-about.css");
 @import url("../blocks/footer/__social-icons/footer__social-icons.css");
 
 /* Header */
