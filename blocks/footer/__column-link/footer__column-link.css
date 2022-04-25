@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.footer__column-link:visited, .footer__column-link:active, .footer__column-link, a{
+.footer__column-link a, .footer__column-link p{
   color: white;
   text-decoration: none;
 }
